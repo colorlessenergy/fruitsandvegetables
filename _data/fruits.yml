@@ -1,0 +1,14 @@
+- title: Banana
+  letter: 'B'
+  info: 'color yellow'
+  bg-img: 'images/banana.jpg'
+
+- title: Mango
+  letter: 'M'
+  info: 'color green'
+  bg-img: 'images/mango.jpg'
+
+- title: Orange
+  letter: 'O'
+  info: 'color orange'
+  bg-img: 'images/orange.jpg'
