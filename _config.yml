@@ -1,0 +1,2 @@
+baseurl: /labs
+exclude: ["README.md"]
