@@ -2,68 +2,72 @@
 layout: default
 ---
 
-<section>
-  <div>
-    <p>menu</p>
+<div class="container">
+  <section class="main">
+    <div class="nav">
+      <p>MENU</p>
+      <div>
+        <img src="images/favicon.png" alt="">
+      </div>
+    </div>
+    <div>
+      <div>
+        <p>about&contact</p>
+      </div>
+      <div>
+        <p>FRUITS</p>
+        <p>VEGETABLES</p>
+        <p>are life</p>
+        <p>discover &#8595;</p>
+      </div>
+      <div>
+        <ul>
+          <li>Github</li>
+          <li>fruits</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div>
+      <h2>Work &</h2>
+      <h1>Projects</h1>
+    </div>
+    <div>
+      {% for fruits in site.data.fruits %}
+        <div style="background-image: url('{{fruits.bg-img}}');">
+          <p>{{fruits.letter}}</p>
+          <h2>{{fruits.title}}</h2>
+          <h3>{{fruits.info}}</h3>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  <section>
+    <div>
+      <div>
+        <p>"coding till the</p>
+        <p>End"</p>
+      </div>
+    </div>
+  </section>
+  <section>
     <img src="http://placehold.it/100x100" alt="">
-  </div>
-  <div>
     <div>
-      <p>about&contact</p>
+      <p>CONTACT ME</p>
+      <h2><a href="malito:theluckorange@yahoo.com">theluckorange@yahoo.com</a></h2>
     </div>
     <div>
-      <p>FRUITS</p>
-      <p>VEGETABLES</p>
-      <p>are life</p>
-      <p>discover &#8595;</p>
-    </div>
-    <div>
+      <p>social life</p>
       <ul>
         <li>Github</li>
-        <li>fruits</li>
+        <li>twitter</li>
+        <li>fruits and vegetables</li>
       </ul>
     </div>
-  </div>
-</section>
-<section>
-  <div>
-    <h2>Work &</h2>
-    <h1>Projects</h1>
-  </div>
-  <div>
-    {% for fruits in site.data.fruits %}
-      <div style="background-image: url('{{fruits.bg-img}}');">
-        <p>{{fruits.letter}}</p>
-        <h2>{{fruits.title}}</h2>
-        <h3>{{fruits.info}}</h3>
-      </div>
-    {% endfor %}
-  </div>
-</section>
-<section>
-  <div>
-    <div>
-      <p>"coding till the</p>
-      <p>End"</p>
-    </div>
-  </div>
-</section>
-<section>
-  <img src="http://placehold.it/100x100" alt="">
-  <div>
-    <p>CONTACT ME</p>
-    <h2><a href="malito:theluckorange@yahoo.com">theluckorange@yahoo.com</a></h2>
-  </div>
-  <div>
-    <p>social life</p>
-    <ul>
-      <li>Github</li>
-      <li>twitter</li>
-      <li>fruits and vegetables</li>
-    </ul>
-  </div>
-  <p>&#8593;</p>
-</section>
-<footer>
-  <p>&copy 2017 colorlessenergy - Brian Munoz</p>
-</footer>
+    <p>&#8593;</p>
+  </section>
+  <footer>
+    <p>&copy 2017 colorlessenergy - Brian Munoz</p>
+  </footer>
+</div>
