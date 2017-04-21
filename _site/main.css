@@ -227,6 +227,10 @@ footer p {
   z-index: 100;
 }
 
+.main .nav p:hover {
+  color: #fff;
+}
+
 .main-content {
   display: flex;
   justify-content: space-between;
