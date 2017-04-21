@@ -16,20 +16,52 @@ footer p {
   text-align: center;
 }
 
-.Banana:hover {
-  background-image: url("images/banana.jpg")
+.Banana:hover::after {
+  background-image: url("images/banana.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
-.Orange:hover {
-  background-image: url("images/orange.jpg")
+.Orange:hover::after {
+  background-image: url("images/orange.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  opacity: .9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
-.Mango:hover {
-  background-image: url("images/mango.jpg")
+.Mango:hover::after {
+  background-image: url("images/mango.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .Banana, .Orange, .Mango {
-  background-position: center;
+
   position: relative;
   z-index: 101;
 }
@@ -136,6 +168,20 @@ footer p {
   flex-direction: column;
 }
 
+.main::before {
+  background-image: url("images/favicon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
 .main .nav {
   border-bottom: #474747 1px solid;
   display: flex;
@@ -171,6 +217,7 @@ footer p {
   display: flex;
   justify-content: space-between;
   height: 512px;
+  z-index: 100;
 }
 
 .main-content .about {
