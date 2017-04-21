@@ -4,12 +4,116 @@ html, body {
   padding: 0;
 }
 
+
+footer p {
+  align-items: center;
+  border-top: 1px solid #474747;
+  color: #fff;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+}
+
+.Banana:hover {
+  background-image: url("images/banana.jpg")
+}
+
+.Orange:hover {
+  background-image: url("images/orange.jpg")
+}
+
+.Mango:hover {
+  background-image: url("images/mango.jpg")
+}
+
+.Banana, .Orange, .Mango {
+  background-position: center;
+}
+
+.banana-image {
+  border-radius: 34px;
+  border: 1px solid #e02339;
+  padding: 7px;
+}
+
+.contact {
+  align-items: center;
+  color: #e02339;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.contact p {
+  margin-bottom: 10px
+}
+
+.contact h2 {
+  margin-top: 0px;
+}
+
+.contact h2 a {
+  color: #fff;
+  font-size: 35px;
+  text-decoration: none;
+}
+
 .container {
   background-color: #2b2b2b;
 }
 
+.end-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.end-content img {
+  height: 50px;
+  width: 50px;
+}
+
+.end-content .arrow-up {
+  border: #474747 1px solid;
+  background-color: #000;
+  border-radius: 52px;
+  color: #e02339;
+  font-size: 60px;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+}
+
+.end-content .social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.end-content .social ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.end-content .social ul li {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.end-content .social p {
+  color: #e02339;
+}
+
 .main {
-  color: #b71414;
+  color: #e02339;
   display: flex;
   flex-direction: column;
 }
@@ -43,4 +147,189 @@ html, body {
   margin: 0px;
   height: 50px;
   width: 50px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  height: 512px;
+}
+
+.main-content .about {
+  border-bottom: #474747 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 50px;
+  width: 100%;
+}
+
+.main-content .about .discover {
+  color: #9a9898;
+  text-align: center;
+}
+
+.main-content .about .fruits {
+  font-size: 150px;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.main-content .about .vegetable {
+  font-size: 150px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.main-content .about .bottom-text {
+  color: #fff;
+  margin: 0;
+  font-size: 50px;
+}
+
+.main-content .m {
+  border-bottom: #474747 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+}
+
+.main-content .m p, .main-content .social p {
+  margin: 0;
+  transform: rotate(-90deg);
+}
+
+.main-content .social {
+  border-bottom: #474747 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 51px;
+}
+
+.quote {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.quote .quote-container {
+  align-items: center;
+  box-shadow: 0px 1px 14px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 600px;
+}
+
+.quote .border-quote {
+  border: 1px solid #e02339;
+  color: #fff;
+  font-size: 55px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+.work .type {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.work .type .type-container {
+  border: 1px solid gray;
+  display: flex;
+  width: 60%;
+}
+
+.work .type .type-container p {
+  background-color: black;
+  color: #2b2b2b;
+  width: 50px;
+  text-align: center;
+  font-size: 100px;
+  margin: 0;
+  width: 120px;
+}
+
+.work .type .type-container div {
+  margin-left: 20px;
+}
+
+.work .type .type-container div h2 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.work .type .type-container div h3 {
+  color: #e02339;
+  margin-top: 2px;
+}
+
+.work .type .type-container .arrow {
+  align-self: center;
+  color: #e02339;
+  font-size: 50px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.work .work-title {
+  color: #fff;
+  text-align: center;
+}
+
+.work .work-title p {
+  font-size: 100px;
+  margin: 0;
+  padding-top: 83px;
+}
+
+.work .work-title h1 {
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.line-left {
+  position: fixed;
+  height: 100vh;
+  width: 1px;
+  left: 50px;
+  top: 0;
+  background-color: #474747;
+  z-index: 100;
+}
+
+.line-right {
+  height: 100vh;
+  width: 1px;
+  right: 50px;
+  top: 0;
+  position: fixed;
+  background-color: #474747;
+  z-index: 100;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .main-content .about {
+    justify-content: center;
+  }
+
+  .main-content .about .fruits, .main-content .about .vegetable {
+    font-size: 50px;
+  }
+
+  .main-content .about .bottom-text {
+    font-size: 25px;
+  }
+
+
 }
