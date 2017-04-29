@@ -101,7 +101,7 @@ footer p {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: -49px;
+  top: -50%
 }
 
 .contact p {
@@ -185,6 +185,7 @@ footer p {
   background-position: center;
   background-repeat: no-repeat;
   content: "";
+  height: 600px;
   opacity: 0.3;
   top: 0;
   left: 0;
