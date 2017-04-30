@@ -203,7 +203,6 @@ footer p {
 
 .main .nav div {
   align-items: center;
-  border-left: #474747 1px solid;
   display: flex;
   justify-content: center;
   height: 50px;
@@ -217,7 +216,6 @@ footer p {
 
 .main .nav p {
   align-items: center;
-  border-right: #474747 1px solid;
   cursor: pointer;
   display: flex;
   font-size: 12px;
